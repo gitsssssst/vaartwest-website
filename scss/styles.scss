@@ -1,15 +1,35 @@
 /* vaartwest.scss */
 
+html,
+body,
+#page {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
 #header {
-  min-height: 600px;
+  width: 100%;
+  height: 100%;
+  display: table;
+  
   color: #fff;
   background: #cecece url(../img/cargo-ship.jpg) no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
+  background-size: cover; 
+  
+  svg {
+    max-width: 600px;
+    width: 80%;
+  }  
 }
 
 #logo {
   text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+  height: 100%;
 }
